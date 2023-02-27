@@ -1,0 +1,39 @@
+:root{
+  --bg-header:#02A9F7;
+  --clr-neutral:rgb(239, 248, 255);
+  --text: #58585D;
+  --text-dark: #161617;
+  --primary: #1207a8;
+  --primary-dark: #e9f44a;
+  --line: #efefef;
+  --bg: #fff;
+  --bg-alt: #fdfdfd;
+  --font: "Mulish",sans-serif;
+  --font-size: 16px;
+  --radius: 4px;
+  --weight-normal: 400;
+  --weight-semi: 700;
+  --weight-bold: 900;
+  --container: 80%;
+  --container-max: 1356px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, h1, h2, h3, p, span{
+  font-family:var(--font) ;
+  font-size: var(--font-size);
+  font-weight: var(--weight-normal);
+}
+.flex{
+  display: flex;
+}
+
+.flex-center{
+  justify-content: center;
+}
+.flex-between{
+  justify-content: center;
+}

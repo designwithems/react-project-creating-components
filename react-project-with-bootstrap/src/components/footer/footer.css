@@ -1,0 +1,31 @@
+@import url('../../App.css');
+
+.Footer{
+    background-color: var(--bg-header);
+}
+.brand-footer{
+    font-weight:var(--weight-bold);
+    font-size: 32px;
+    color: var(--clr-neutral);
+    padding: 1rem;
+}
+.brand-footer:hover{
+    color: white;
+}
+.bottoms{
+
+    padding: 1rem;
+    background: rgb(59, 59, 59);
+}
+
+.padding-footer{
+    padding: 5rem 2rem;
+}
+.text-white{
+    color: whitesmoke;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+}
